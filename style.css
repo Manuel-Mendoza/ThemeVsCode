@@ -1,0 +1,170 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0px 80px;
+	background: #1b2127;
+}
+
+.logo{
+	margin: 0;
+}
+.imag-logo{
+	width: 10em;
+}
+.menu{
+	font-size: 18px;
+}
+
+ol{
+	margin: 0px;
+}
+
+figure {
+	margin: 0px;
+}
+
+/* Fondos para los titulos*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Fjalla One',cursive
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 1.3;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	color: white;
+	text-align: left;
+	margin: 0px;
+	padding: 20px;
+}
+h1 strong{
+	color: #026fff;
+}
+
+h2{
+	font-size: 55px;
+	color: blueviolet;
+	margin: 0px;
+	padding: 25px;
+	text-align: center;
+}
+
+.hero{
+	height: 300px;
+	background-color: #1b2127;
+	background-image:url(https://scontent.fbog11-1.fna.fbcdn.net/v/t1.0-9/69791304_3250360091648293_9186819971085238272_n.jpg?_nc_cat=105&_nc_oc=AQnh_ZNdrQbiRaFOvThqxlyaWHx6M6uiuKmQDv-D2Gt7koX1nD7ohFa0Bvsx8pqDvqE&_nc_ht=scontent.fbog11-1.fna&oh=8bb9d7d2935988b1e38e8aa1ac7735ba&oe=5E252DCC) ;
+	background-size: 500px 300px ;
+	background-repeat: no-repeat;
+	background-position-x:right ; 
+	display: flex;
+	align-items: center;
+}
+
+.portfolio{
+	background: #1b2127;
+}
+
+.project{
+	/* border-top: 10px solid red;
+	border-right: 10px solid blue;
+	border-left: 10px solid blueviolet;
+	border-bottom: 10px solid green;;
+ border-color: blueviolet;
+ border-width: 15px;
+ border-style: solid; */
+ border: 1px solid grey;
+ border-radius: 10px;
+ margin: 10px;
+ margin-bottom: 15px;
+ padding: 20px;
+ background: white;
+ display: flex;
+}
+.project-title{
+	font-size: 30px;
+}
+
+.project-curso{
+	margin: 0px;
+}
+.project-date{
+	margin: 0px;
+}
+
+.project-div-left{
+	width: 500px;
+}
+
+
+header{
+	background-color: #1b2127 ;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header ul{
+	display: flex;
+}
+.header a{
+	padding: 0px 45px 0px 0px;
+	color: white;
+	text-decoration: none;
+}
+.event{
+	display: inline-block;
+	border-radius: 15px;
+	background: whitesmoke;
+	text-align: center;
+}
+
+.event-img{
+	width: 30em;
+	border-radius:13px ;
+	margin: 20px 0px -11px 0px;
+}
+
+.event-descr{
+	text-align: justify;
+	margin: 7px 15px;
+}
+
+#sabermas{
+	text-align: center;
+}
+
+.form-email{
+	margin: 45px 0px;
+}
+#email{
+	font-size: 18px;
+	margin: 0px 0px 0px 35px;
+	border-radius: 10px;
+}
+button{
+	border-radius: 10px;
+	font-size: 18px;
+}
+label{
+	font-weight: bold;
+	font-family: 'Fjalla One', cursive;
+	color: blueviolet;
+	font-size: 2em;
+}
+
+.footer{
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	color: whitesmoke;
+	background: #1b2127;
+}
+
+.footer a {
+	color: whitesmoke;
+}
