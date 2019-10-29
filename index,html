@@ -1,0 +1,142 @@
+<!DOCTYPE html><!-- Indicar el Formato al Navegador -->
+
+<!-- Iniciar la Web de HTML  -->
+<html lang="es">
+<!--Parte Principal de la web-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Clases de Frontend :3</title>
+	<link rel="icon" type="image/png"
+		href="https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display|Source+Sans+Pro&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<!-- Cuerpo de la Web -->
+
+<body>
+	<!--Parte principal del cuerpo-->
+	<header class="header">
+		<figure class="logo">
+			<img class="imag-logo"
+				src="https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/logo.png"
+				alt="Img of logo">
+		</figure>
+		<!-- etiqueta de navegar -->
+		<nav class="menu">
+			<!-- ol te da el formato enumerado a diferencia de ul te lo da con simbolos-->
+			<ul>
+				<li>
+					<a class="link" href="#portafolio">Portafólio</a>
+				</li>
+				<li>
+					<a class="link" href="#sabermas">Saber Mas</a>
+				</li>
+				<li>
+					<a class="link" href="#juntos">Trabajemos juntos</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- dividir el html por secciones -->
+	<!-- y Seccion del título -->
+	<section class="hero">
+		<h1>Hola soy <strong>Manuel Campos<br> </strong> y soy
+			un Aprediz a la <br> <strong>Programación</strong></h1>
+	</section>
+
+	<!-- seccion del Portafolio -->
+	<section class="portfolio" id="hero">
+		<h2>Portafolio</h2>
+		<article class="project">
+			<div class="project-div-left">
+				<h3 class="project-title">Platzi de Frontend</h3>
+				<h5 class="project-curso">Clases de Desarrolo Web</h5>
+				<p class="project-date"><small><strong>Fecha:</strong> 24/10/19</small></p>
+				<p class="GIT"><small><strong>GitHub:</strong>https://github.com/Manuel-Mendoza</small></p>
+				<p class="project-cont">Frontend es la parte de un sitio web que interactúa con los usuarios, por eso decimos
+					que está del lado del cliente. Backend es la parte que se conecta con la base de datos y el servidor que
+					utiliza dicho sitio web, por eso decimos que el backend corre del lado del servidor</p>
+			</div>
+
+			<figure class="project-imgConteinr">
+				<img class="project-img"
+					src="https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/platzi-video-react-native.png"
+					width="200" alt="img de ejemplo de Frontend">
+			</figure>
+		</article>
+	</section>
+
+	<section class="portfolio" id="hero2">
+		<article class="project">
+			<div class="project-div-left">
+				<h3 class="project-title">Platzi de Frontend</h3>
+				<h5 class="project-curso">Clases de Desarrolo Web</h5>
+				<p class="project-date"><small><strong>Fecha:</strong> 24/10/19</small></p>
+				<p class="GIT"><small><strong>GitHub:</strong>https://github.com/Manuel-Mendoza</small></p>
+				<p class="project-cont">Frontend es la parte de un sitio web que interactúa con los usuarios, por eso decimos
+					que está del lado del cliente. Backend es la parte que se conecta con la base de datos y el servidor que
+					utiliza dicho sitio web, por eso decimos que el backend corre del lado del servidor</p>
+			</div>
+
+			<figure class="project-imgConteinr">
+				<img class="project-img"
+					src="https://static.platzi.com/media/tmp/class-files/git/desarrollo-web-portafolio/desarrollo-web-portafolio-9af19a0a0fcd9fb6a66c3831cca6aaebf3328762/images/platzi-video-react-native.png"
+					width="200" alt="img de ejemplo de Frontend">
+			</figure>
+		</article>
+	</section>
+
+	<section id="sabermas">
+		<h2>Saber Mas de Frontend</h2>
+		<article class="event">
+			<figure class="event-img-cont">
+				<img class="event-img"
+					src="https://static.platzi.com/media/blog/backend-frontend-05e89d56-9779-4d93-81bd-e53b9f4cd360.jpg"
+					width="200px">
+			</figure>
+			<h3 class="event-title">Clases de Platzi Sobre Frontend</h3>
+			<p class="event-descr">
+					Frontend es la parte de un sitio web que interactúa 
+					con los usuarios, por eso decimos que está del lado 
+					del cliente. Backend es la parte que se conecta con la 
+					base de datos y el servidor que utiliza dicho sitio web, 
+					por eso decimos que el backend corre del lado del servidor. 
+					Estos dos conceptos explican a grandes rasgos cómo funciona 
+					una página web y son fundamentales para cualquier persona que 
+					trabaje en el mundo digital, ya sea en programación, marketing, 
+					diseño o emprendimiento.
+			</p>
+			<a class="event-descr"
+				href="https://platzi.com/blog/que-es-frontend-y-backend/#targetText=Frontend%20es%20la%20parte%20de,corre%20del%20lado%20del%20servidor."
+				target="_blank">Ir al enlase</a>
+		</article>
+	</section>
+
+	<section id="juntos" class="contac">
+		<form class="form-email" action="https://www.facebook.com/JhemaCm">
+			<label class="for-email">¿Te Comunicas Comigo?</label>
+			<input id="email" type="datetime" placeholder="ejemplo@correo.extencion">
+			<button>enviar</button>
+		</form>
+	</section>
+
+
+	<footer class="footer">
+		<div>
+			<p>
+				Curso de Desarrollo Web Online
+			</p>
+		</div>
+		<div>
+			<p>
+				Autor: <a href="https://www.facebook.com/JhemaCm">Manuel Mendoza</a>
+			</p>
+		</div>
+	</footer>
+
+</body>
+<html>
